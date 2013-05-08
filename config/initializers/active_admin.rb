@@ -1,5 +1,7 @@
 ActiveAdmin.setup do |config|
 
+
+  
   # == Site Title
   #
   # Set the title that is displayed on the main layout
@@ -17,7 +19,8 @@ ActiveAdmin.setup do |config|
   #
   # Note: Recommended image height is 21px to properly fit in the header
   #
-  # config.site_title_image = "/images/logo.png"
+  config.site_title_image = "/assets/logo_admin_header.png"
+
 
   # == Default Namespace
   #
@@ -92,7 +95,7 @@ ActiveAdmin.setup do |config|
   # roots for each namespace.
   #
   # Default:
-  # config.root_to = 'dashboard#index'
+   config.root_to = 'posts#index'
 
   # == Admin Comments
   #
